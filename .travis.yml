@@ -4,6 +4,7 @@ node_js:
   - "node"
 install:       npm install
 script:
+  - npm run check
   - npm test
   - gulp
 cache:
